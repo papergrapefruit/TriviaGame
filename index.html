@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Trivia Game</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>Let's Trivia!</h1>
+    <div class="panel panel-default">
+        <!-- timer will go here -->
+      <div>
+        <h4 id="display" class="text-center"></h4>
+      </div>
+      </div>
+        <!-- start button here -->
+      <div id="buttons">
+        <button id="start">START</button>
+        <button id="again">Play again?</button>
+        <button id="next">Next question?</button>
+      </div>
+      <div class="well">
+        <h3><span id="questionDisplay"></span></h3>
+      <div id="A"><h4 style="text-indent: 150px;">
+                A. <span id="choiceA"></span></h4>
+      </div>
+      <div id="B"><h4 style="text-indent: 150px;">
+                B. <span id="choiceB"></span></h4>
+      </div>
+      <div id="C"><h4 style="text-indent: 150px;">
+                C. <span id="choiceC"></span></h4>
+      </div>
+      <div id="D"><h4 style="text-indent: 150px;">
+                D. <span id="choiceD"></span></h4>
+      </div>
+    </div>
+      </div>
+    <div><h2 id="answerShow" style="text-align: center"></h2>
+    </div>
+    </div>
+      <!--  questions here -->
+    <div class="container">
+      <!--  stats here -->
+      <div id="stats-area">
+        <h3>Number Correct: <span  id="correct">0</span></h3>
+        <h3>Number Missed: <span id ="missed">0</span></h3>
+      </div>
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Script -->
+<script type="text/javascript"
+src="assets/javascript/app.js"></script>
+</body>
+</html>
